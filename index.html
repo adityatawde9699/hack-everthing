@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hack Everything</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <!-- Additional meta tags for SEO -->
+    <meta name="description" content="Learn ethical hacking and cybersecurity with the latest tools and techniques.">
+    <meta name="keywords" content="ethical hacking, cybersecurity, penetration testing, hacking tools">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Hack Everything - Ethical Hacking & Cybersecurity">
+    <meta property="og:description" content="Explore the world of ethical hacking and cybersecurity. Learn about network scanning tools, exploitation frameworks, and more.">
+    <meta property="og:image" content="https://yourwebsite.com/images/preview.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://yourwebsite.com"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Hacking Tools",
+        "item": "https://yourwebsite.com#network-scanning-tools"
+      }]
+    }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            
+            <h2>Hack Everything</h2>
+            <p>Your gateway to ethical hacking and cybersecurity</p>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#what-is-hacking" class="nav-link">What is Hacking?</a></li>
+                    <li class="nav-item"><a href="#types-of-hacking" class="nav-link">Types of Hacking</a></li>
+                    <li class="nav-item"><a href="#network-scanning-tools" class="nav-link">Network Scanning Tools</a></li>
+                    <li class="nav-item"><a href="#exploitation-frameworks" class="nav-link">Exploitation Frameworks</a></li>
+                    <li class="nav-item"><a href="#web-app-security" class="nav-link">Web App Security</a></li>
+                    <li class="nav-item"><a href="#wireless-hacking-tools" class="nav-link">Wireless Hacking Tools</a></li>
+                </ul>
+            </nav>
+            <div id="dton">
+                <img id="theme-toggle" class="theme-toggle" src="https://img.icons8.com/ios-filled/50/000000/sun.png" alt="Toggle Day/Night Mode" width="50" height="50" loading="lazy">
+            </div>
+            
+        </div>
+    </header>
+
+    <aside class="sidebar" >
+        <div class="sidebar-section">
+            <h2 class="sidebar-title">Latest Articles</h2>
+            <div class="article-card">
+                <img src="https://img.icons8.com/?size=50&id=rOHcpTUtCTjr&format=png&color=000000" alt="Introduction to Wireshark" class="article-image" loading="lazy">
+                <a href="https://www.wireshark.org/learn" class="article-link">Introduction to Wireshark</a>
+            </div>
+            <div class="article-card">
+                <img src="https://img.icons8.com/?size=50&id=97AFS4JiW8vx&format=png&color=000000" alt="Mastering Metasploit" class="article-image" loading="lazy">
+                <a href="https://github.com/PacktPublishing/Mastering-Metasploit-Third-Edition" class="article-link">Mastering Metasploit</a>
+            </div>
+            <div class="article-card">
+                <img src="https://img.icons8.com/?size=50&id=0tpqgxISselU&format=png&color=000000" alt="Securing Your Network" class="article-image" loading="lazy">
+                <a href="https://www.geeksforgeeks.org/network-security/" class="article-link">Securing Your Network</a>
+            </div>
+            <div class="article-card">
+                <img src="https://img.icons8.com/?size=50&id=4G8_4YGxFFur&format=png&color=000000" alt="fishing-attack" class="article-image" loading="lazy">
+                <a href="https://www.cisco.com/c/en_in/products/security/email-security/what-is-phishing.html" class="article-link">Phishing Attack</a>
+            </div>
+            <div class="article-card">
+                <img src="https://img.icons8.com/?size=50&id=48489&format=png&color=000000" alt="Data-security" class="article-image" loading="lazy">
+                <a href="https://www.skyflow.com/data-privacy-solution?kw=data%20%26%20privacy&cpn=569146912&kw=data%20%26%20privacy&cpn=569146912&utm_agid=1179777785416215&creative=&extension_id={extensionid}&device=c&placement=&utm_term=data%20%26%20privacy&utm_campaign=APAC1:LI:UC:Generic&utm_content=Data+Privacy&utm_source=bing&utm_medium=ppc&hsa_acc=6575335991&hsa_cam=20681593567&hsa_grp=1179777785416215&hsa_ad=&hsa_src=o&hsa_tgt=kwd-73736485251600:loc-90&hsa_kw=data%20%26%20privacy&hsa_mt=e&hsa_net=adwords&hsa_ver=3&msclkid=3633398624bd1b9795d25ef591160306">Data-security</a>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <h2 class="sidebar-title">Resources</h2>
+            <ul class="resource-list">
+                <li class="resource-item"><a href="#" class="resource-link">Ethical Hacking Courses</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Cybersecurity Certifications</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Hacking Tools</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Penetration Testing Labs</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Bug Bounty Programs</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Security Conferences</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Capture the Flag (CTF) Challenges</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Open Source Security Projects</a></li>
+            </ul>
+        
+            <h3 class="sidebar-subtitle">Recommended Books</h3>
+            <ul class="resource-list">
+                <li class="resource-item"><a href="#" class="resource-link">The Web Application Hacker's Handbook</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Hacking: The Art of Exploitation</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Metasploit: The Penetration Tester’s Guide</a></li>
+            </ul>
+        
+            <h3 class="sidebar-subtitle">Community Forums</h3>
+            <ul class="resource-list">
+                <li class="resource-item"><a href="#" class="resource-link">Reddit - Netsec</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Hack The Box Forum</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">Cybrary Community</a></li>
+            </ul>
+        
+            <h3 class="sidebar-subtitle">YouTube Channels</h3>
+            <ul class="resource-list">
+                <li class="resource-item"><a href="#" class="resource-link">Null Byte</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">LiveOverflow</a></li>
+                <li class="resource-item"><a href="#" class="resource-link">The Cyber Mentor</a></li>
+            </ul>
+        </div>
+    
+        <div class="sidebar-section">
+            <h2 class="sidebar-title">Community</h2>
+            <ul class="community-list">
+                <li class="community-item"><a href="#" class="community-link">Forums</a></li>
+                <li class="community-item"><a href="#" class="community-link">Meetups</a></li>
+                <li class="community-item"><a href="#" class="community-link">Conferences</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="container">
+        <main class="main-content">
+            <section id="intro" class="content-section">
+                <div class="card">
+                    <h2 class="section-title">What is Hacking?</h2>
+                    <p class="section-text">Hacking is the practice of exploring, modifying, or exploiting vulnerabilities in computer systems, networks, or applications. While hacking is often associated with malicious activities, it can also serve ethical purposes aimed at improving security. Hacking can involve activities such as penetration testing, vulnerability assessments, and developing exploits to understand weaknesses within a system.</p>
+                    <p class="section-text">There are three primary types of hackers, each defined by their intent and methods:</p>
+                    <ul class="section-list">
+                        <li class="section-list-item"><strong>White Hat Hackers:</strong> Also known as ethical hackers, they identify and fix security vulnerabilities to enhance system security. They work under legal boundaries, often employed by organizations to perform penetration tests and secure their infrastructure.</li>
+                        <li class="section-list-item"><strong>Black Hat Hackers:</strong> Malicious hackers who exploit vulnerabilities for personal gain, financial profit, or to cause harm. Their actions include deploying malware, stealing sensitive data, and conducting Distributed Denial of Service (DDoS) attacks.</li>
+                        <li class="section-list-item"><strong>Gray Hat Hackers:</strong> Operate between ethical and unethical lines, often discovering vulnerabilities without malicious intent but without authorization. They may disclose flaws to organizations, sometimes requesting payment for their findings.</li>
+                    </ul>
+                    <p class="section-text">Hacking plays a vital role in cybersecurity by exposing weaknesses and ensuring that organizations can proactively defend against threats. Ethical hacking certifications, such as <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" target="_blank">Certified Ethical Hacker (CEH)</a> and Offensive Security Certified Professional (OSCP), are crucial for individuals pursuing careers in cybersecurity. These certifications validate the skills needed to think like a hacker while adhering to ethical guidelines.</p>
+                    <p class="section-text">The evolution of hacking has also led to the rise of bug bounty programs, where organizations invite hackers to test their security systems and report vulnerabilities in exchange for monetary rewards. Companies like Google, Microsoft, and Facebook run such programs to encourage proactive security assessments.</p>
+                    <p class="section-text">Moreover, the field of hacking extends beyond computer networks to areas such as:</p>
+                    <ul class="section-list">
+                        <li class="section-list-item"><strong>IoT Hacking:</strong> Exploiting vulnerabilities in Internet of Things (IoT) devices, which often lack strong security measures, making them prime targets.</li>
+                        <li class="section-list-item"><strong>Mobile Hacking:</strong> Targeting mobile applications and devices to extract sensitive information or disrupt functionality.</li>
+                        <li class="section-list-item"><strong>Social Engineering:</strong> Manipulating individuals into divulging confidential information through psychological tactics rather than technical exploits.</li>
+                    </ul>
+                    <p class="section-text">Understanding hacking and its various forms helps individuals and organizations stay vigilant and adopt comprehensive security practices. The future of cybersecurity relies heavily on ethical hackers and their continuous efforts to stay ahead of emerging threats.</p>
+                </div>
+            </section>
+
+            <section id="types-of-hacking" class="content-section">
+                <div class="card">
+                    <h2 class="section-title">Types of Hacking</h2>
+                    <p class="section-text">Hacking is not inherently malicious; it can be used for both good and bad purposes depending on the intent of the hacker. Here are the primary types of hacking:</p>
+                    <ul class="section-list">
+                        <li class="section-list-item">
+                            <strong>Ethical Hacking (White Hat):</strong> Ethical hackers, often employed by organizations, use their skills to identify security vulnerabilities and strengthen systems. This type of hacking is legal and helps prevent data breaches and cyberattacks. Certifications such as CEH (Certified Ethical Hacker) validate their expertise.
+                        </li>
+                        <li class="section-list-item">
+                            <strong>Black Hat Hacking:</strong> Black hat hackers engage in unauthorized activities to exploit system weaknesses for personal gain. They may steal sensitive information, install malware, or disrupt operations. This type of hacking is illegal and poses significant threats to individuals and businesses.
+                        </li>
+                        <li class="section-list-item">
+                            <strong>Gray Hat Hacking:</strong> Gray hat hackers operate between ethical and black hat hacking. They may find and disclose vulnerabilities without malicious intent, but without permission from the organization. While their goal might be to highlight security flaws, their actions can still be illegal or unethical.
+                        </li>
+                        <li class="section-list-item">
+                            <strong>Script Kiddies:</strong> These are inexperienced hackers who use pre-written scripts or tools to launch attacks without fully understanding the underlying technology. Their activities are often disruptive but lack sophistication.
+                        </li>
+                        <li class="section-list-item">
+                            <strong>Hacktivists:</strong> Hacktivists hack into systems to promote a political or social cause. They often target government systems, large corporations, or organizations they perceive as unethical, aiming to raise awareness or disrupt operations.
+                        </li>
+                        <li class="section-list-item">
+                            <strong>Nation-State Hackers:</strong> Sponsored by governments, these hackers focus on cyber espionage, intelligence gathering, and cyber warfare. Their activities can impact national security and global relations.
+                        </li>
+                        <li class="section-list-item">
+                            <strong>Whistleblowers:</strong> Though not traditional hackers, whistleblowers access and leak sensitive data to expose illegal or unethical activities within organizations. Their actions may be considered hacking depending on the method of data retrieval.
+                        </li>
+                    </ul>
+                    <p class="section-text">Understanding these types helps distinguish between harmful and beneficial hacking practices, ultimately fostering a safer digital environment.</p>
+                </div>
+            </section>
+            
+
+            <section id="network-scanning-tools" class="content-section">
+                <div class="card">
+                    <h2 class="section-title">Network Scanning Tools</h2>
+                    <p class="section-text">Network scanning tools are essential for identifying vulnerabilities in a network. Here are some popular tools:</p>
+                    <ul class="section-list">
+                        <li class="section-list-item"><strong>Nmap:</strong> A powerful open-source network scanner used for network discovery and security auditing.</li>
+                        <li class="section-list-item"><strong>Wireshark:</strong> A network protocol analyzer that captures and displays data packets for analysis.</li>
+                        <li class="section-list-item"><strong>Angry IP Scanner:</strong> A fast and friendly network scanner that is widely used by network administrators.</li>
+                    </ul>
+                </div>
+            </section>
+
+           <section id="exploitation-frameworks" class="content-section">
+                <div class="card">
+                   <h2 class="section-title">Exploitation Frameworks</h2>
+                   <p class="section-text">Exploitation frameworks are used to develop and execute exploit code against a target system. Here are some popular frameworks:</p>
+                   <ul class="section-list">
+                       <li class="section-list-item">
+                           <strong>Metasploit:</strong> A widely used exploitation framework that provides tools for developing and executing exploit code. It includes a vast database of exploits, payloads, and auxiliary modules. Metasploit is highly extensible and supports automation through scripting. It is commonly used for penetration testing, vulnerability assessment, and security research.
+                       </li>
+                       <li class="section-list-item">
+                           <strong>BeEF:</strong> The Browser Exploitation Framework (BeEF) is used for exploiting web browsers. It focuses on client-side attacks and provides a range of modules to exploit browser vulnerabilities. BeEF allows attackers to control browsers remotely and perform various actions, such as stealing cookies, capturing keystrokes, and executing JavaScript code. It is often used in social engineering attacks and red team engagements.
+                       </li>
+                       <li class="section-list-item">
+                        <strong>Canvas:</strong> A commercial exploitation framework that provides a wide range of exploits and tools for penetration testing. Canvas is known for its extensive exploit library and support for various platforms, including Windows, Linux, and macOS. It offers features like automated exploitation, post-exploitation modules, and reporting capabilities. Canvas is used by security professionals to identify and exploit vulnerabilities in target systems.
+                       </li>
+                   </ul>
+                </div>
+        </section>
+
+       <section id="web-app-security" class="content-section">
+            <div class="card">
+                <h2 class="section-title">Web App Security</h2>
+                <p class="section-text">Web application security is essential to protect websites and web applications from cyber threats. Here are some common security measures:</p>
+                <ul class="section-list">
+                    <li class="section-list-item"><strong>Input Validation:</strong> Validate and sanitize user input to prevent common vulnerabilities like SQL injection and cross-site scripting (XSS).</li>
+                    <li class="section-list-item"><strong>HTTPS:</strong> Use HTTPS to encrypt data transmitted between the web server and client, ensuring confidentiality and integrity.</li>
+                    <li class="section-list-item"><strong>OWASP Top 10:</strong> Follow the OWASP Top 10 guidelines to address common security risks in web applications, such as injection attacks, broken authentication, and security misconfigurations.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="wireless-hacking-tools" class="content-section">
+            <div class="card">
+                <h2 class="section-title">Wireless Hacking Tools</h2>
+                <p class="section-text">Wireless networks are vulnerable to various attacks due to their broadcast nature. Attackers can exploit weaknesses in wireless protocols, encryption methods, and network configurations to gain unauthorized access or disrupt network operations. Here are some tools used for wireless hacking:</p>
+                <ul class="section-list">
+                    <li class="section-list-item"><strong>Aircrack-ng:</strong> A popular suite of tools for auditing wireless networks. It includes tools for packet capture, password cracking, and network analysis.</li>
+                    <li class="section-list-item"><strong>Kismet:</strong> A wireless network detector, sniffer, and intrusion detection system. It can detect hidden networks, monitor traffic, and identify rogue access points.</li>
+                    <li class="section-list-item"><strong>Reaver:</strong> A tool for brute-forcing WPS (Wi-Fi Protected Setup) PINs to recover WPA/WPA2 passphrases. It exploits a vulnerability in the WPS protocol to crack wireless passwords.</li>
+                    <li class="section-list-item"><strong>Fern WiFi Cracker:</strong> A wireless security auditing and attack software program. It can be used to test and crack WEP/WPA/WPS keys and perform other network-based attacks.</li>
+                    <li class="section-list-item"><strong>WiFi Pineapple:</strong> A versatile wireless auditing platform that allows for advanced network reconnaissance and man-in-the-middle attacks. It is widely used for penetration testing and security assessments.</li>
+                    <li class="section-list-item"><strong>Wifiphisher:</strong> A security tool that mounts automated phishing attacks against Wi-Fi networks to obtain credentials or infect victims with malware. It is used to perform social engineering attacks on wireless networks.</li>
+                </ul>
+            </div>
+       </section>
+       <section id="Wireshark" class="content-section">
+            <div class="card">
+                <h2 class="section-title">Wireshark</h2>
+                <p class="section-text">Wireshark is a popular network protocol analyzer that allows you to capture and analyze network traffic in real-time. It is widely used by network administrators, security professionals, and developers to troubleshoot network issues, detect security threats, and analyze network protocols. Wireshark supports hundreds of protocols and provides detailed information about network packets, including source and destination addresses, packet size, and protocol headers. With its powerful filtering and analysis capabilities, Wireshark is an essential tool for network monitoring and security analysis.</p>
+                <p class="section-text">One of the key features of Wireshark is its ability to perform deep inspection of hundreds of protocols, making it a versatile tool for various network analysis tasks. Users can apply complex filters to isolate specific traffic patterns, making it easier to identify issues or suspicious activities. Additionally, Wireshark offers a user-friendly graphical interface, as well as a command-line version called TShark for advanced users who prefer scripting and automation.</p>
+                <p class="section-text">Wireshark also supports live capture and offline analysis, allowing users to save captured data for later examination. This feature is particularly useful for forensic investigations and long-term monitoring. The tool can read and write a variety of capture file formats, including pcap, pcapng, and others, ensuring compatibility with other network analysis tools. Furthermore, Wireshark's extensive documentation and active community provide valuable resources for both beginners and experienced users.</p>
+                <p class="section-text">Overall, Wireshark's comprehensive feature set, combined with its ease of use and robust performance, make it an indispensable tool for anyone involved in network management, security, or development. Whether you are diagnosing network problems, conducting security assessments, or learning about network protocols, Wireshark provides the insights and capabilities needed to achieve your goals effectively.</p>
+            </div>
+       </section>
+       <section id="social-engineering" class="content-section">
+        <div class="card">
+            <h2 class="section-title">Social Engineering</h2>
+            <p class="section-text">Social engineering exploits human psychology to gain unauthorized access to systems or sensitive information. Rather than targeting technical vulnerabilities, attackers manipulate individuals into divulging confidential data. Common social engineering tactics include:</p>
+            <ul class="section-list">
+                <li class="section-list-item"><strong>Phishing:</strong> Sending fraudulent emails or messages that trick recipients into revealing personal information, such as passwords or credit card numbers.</li>
+                <li class="section-list-item"><strong>Pretexting:</strong> Creating a fabricated scenario to obtain information from the target, often by impersonating someone in authority.</li>
+                <li class="section-list-item"><strong>Baiting:</strong> Leaving infected devices (like USB drives) in public places, hoping someone will plug them into a computer.</li>
+                <li class="section-list-item"><strong>Tailgating:</strong> Following an authorized person into a restricted area without proper credentials.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="malware" class="content-section">
+        <div class="card">
+            <h2 class="section-title">Types of Malware</h2>
+            <p class="section-text">Malware, or malicious software, is designed to disrupt, damage, or gain unauthorized access to computer systems. Below are common types of malware:</p>
+            <ul class="section-list">
+                <li class="section-list-item"><strong>Virus:</strong> A malicious program that replicates itself by attaching to clean files and spreads throughout a system.</li>
+                <li class="section-list-item"><strong>Worm:</strong> A self-replicating program that spreads without attaching to files, often exploiting network vulnerabilities.</li>
+                <li class="section-list-item"><strong>Trojan Horse:</strong> Disguised as legitimate software but performs malicious actions once executed.</li>
+                <li class="section-list-item"><strong>Ransomware:</strong> Encrypts files or locks users out of their systems, demanding payment for decryption.</li>
+                <li class="section-list-item"><strong>Spyware:</strong> Secretly monitors and collects user data, often leading to identity theft.</li>
+                <li class="section-list-item"><strong>Rootkits:</strong> Conceals malicious programs or processes, allowing persistent unauthorized access to systems.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="password-cracking-tools" class="content-section">
+        <div class="card">
+            <h2 class="section-title">Password Cracking Tools</h2>
+            <p class="section-text">Password cracking tools help identify weak passwords by testing various combinations. Security professionals use these tools to strengthen password policies:</p>
+            <ul class="section-list">
+                <li class="section-list-item"><strong>John the Ripper:</strong> A fast and versatile password-cracking tool used to detect weak Unix passwords.</li>
+                <li class="section-list-item"><strong>Hashcat:</strong> An advanced password recovery tool that supports various hashing algorithms and GPU acceleration.</li>
+                <li class="section-list-item"><strong>Hydra:</strong> A parallelized login cracker that supports numerous protocols, making it useful for brute-force attacks.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="physical-security" class="content-section">
+        <div class="card">
+            <h2 class="section-title">Physical Security Hacking</h2>
+            <p class="section-text">Physical security hacking involves bypassing physical barriers to gain unauthorized access to facilities or devices. Methods include:</p>
+            <ul class="section-list">
+                <li class="section-list-item"><strong>Lock Picking:</strong> Using tools to unlock doors and safes without keys.</li>
+                <li class="section-list-item"><strong>RFID Cloning:</strong> Duplicating access cards by copying RFID signals.</li>
+                <li class="section-list-item"><strong>USB Drop Attacks:</strong> Placing compromised USB drives in secure areas to infect devices.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="incident-response" class="content-section">
+        <div class="card">
+            <h2 class="section-title">Incident Response</h2>
+            <p class="section-text">Incident response involves handling and mitigating security breaches. It is crucial to have a structured process to minimize damage and recover systems:</p>
+            <ul class="section-list">
+                <li class="section-list-item"><strong>Preparation:</strong> Develop response plans and conduct regular security training.</li>
+                <li class="section-list-item"><strong>Identification:</strong> Detect and confirm security incidents through monitoring and alerts.</li>
+                <li class="section-list-item"><strong>Containment:</strong> Isolate affected systems to prevent further damage.</li>
+                <li class="section-list-item"><strong>Eradication:</strong> Remove malicious elements from the environment.</li>
+                <li class="section-list-item"><strong>Recovery:</strong> Restore affected systems and monitor for lingering threats.</li>
+                <li class="section-list-item"><strong>Lessons Learned:</strong> Analyze the incident to improve future responses and prevent recurrence.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="ethical-hacking-career" class="content-section">
+        <div class="card">
+            <h2 class="section-title">Building a Career in Ethical Hacking</h2>
+            <p class="section-text">A career in ethical hacking requires a strong understanding of computer systems, programming, and cybersecurity. Steps to build a career include:</p>
+            <ul class="section-list">
+                <li class="section-list-item"><strong>Certifications:</strong> Obtain certifications like CEH, OSCP, and CISSP to validate skills.</li>
+                <li class="section-list-item"><strong>Hands-On Practice:</strong> Participate in Capture the Flag (CTF) challenges and hackathon events.</li>
+                <li class="section-list-item"><strong>Networking:</strong> Join communities like Hack The Box, TryHackMe, and attend security conferences.</li>
+                <li class="section-list-item"><strong>Internships:</strong> Gain practical experience through internships in cybersecurity firms.</li>
+            </ul>
+        </div>
+    </section>
+    
+
+       <section id="conclusion" class="content-section">
+            <div class="card">
+                <h2 class="section-title">Conclusion</h2>
+                <p class="section-text">Ethical hacking and cybersecurity play a crucial role in safeguarding digital assets and privacy. By understanding the various types of hacking, tools, and techniques, individuals and organizations can better protect themselves from cyber threats. Whether you are an aspiring ethical hacker, a security professional, or an everyday user, staying informed about the latest trends and best practices is essential for maintaining a secure online environment.</p>
+            </div>
+
+       </section>
+
+    <!-- Interactive Quiz Section -->
+<section id="interactive-quiz" class="content-section">
+    <div class="card">
+        <h2 class="section-title">Test Your Cybersecurity Knowledge</h2>
+        <p class="section-text">Take this short quiz to test your knowledge about cybersecurity fundamentals.</p>
+        <div id="quiz">
+            <p><strong>Question 1:</strong> What does the term "phishing" refer to?</p>
+            <ul>
+                <li><label><input type="radio" name="q1" value="correct"> A method to trick people into revealing sensitive information</label></li>
+                <li><label><input type="radio" name="q1" value="wrong"> A technique to encrypt network traffic</label></li>
+                <li><label><input type="radio" name="q1" value="wrong"> A tool to test web application vulnerabilities</label></li>
+            </ul>
+
+            <p><strong>Question 2:</strong> Which tool is commonly used for network packet analysis?</p>
+            <ul>
+                <li><label><input type="radio" name="q2" value="wrong"> Metasploit</label></li>
+                <li><label><input type="radio" name="q2" value="correct"> Wireshark</label></li>
+                <li><label><input type="radio" name="q2" value="wrong"> Burp Suite</label></li>
+            </ul>
+            <p><strong>Question 3:</strong> What is the primary purpose of a firewall?</p>
+            <ul>
+                <li><label><input type="radio" name="q3" value="correct" title="To block unauthorized access to a network"> To block unauthorized access to a network</label></li>
+                <li><label><input type="radio" name="q3" value="wrong" title="To scan for malware on a system"> To scan for malware on a system</label></li>
+                <li><label><input type="radio" name="q3" value="wrong" title="To encrypt data during transmission"> To encrypt data during transmission</label></li>
+            </ul>
+
+            <p><strong>Question 4:</strong> Which of these is a common form of social engineering attack?</p>
+            <ul>
+                <li><label><input type="radio" name="q4" value="wrong" title="Denial of Service (DoS) attack"> Denial of Service (DoS) attack</label></li>
+                <li><label><input type="radio" name="q4" value="correct" title="Phishing email"> Phishing email</label></li>
+                <li><label><input type="radio" name="q4" value="wrong" title="SQL Injection"> SQL Injection</label></li>
+            </ul>
+
+            <p><strong>Question 5:</strong> What does SSL stand for?</p>
+            <ul>
+                <li><label><input type="radio" name="q5" value="wrong" title="Secure Socket Layer"> Secure Socket Layer</label></li>
+                <li><label><input type="radio" name="q5" value="correct" title="Secure Sockets Layer"> Secure Sockets Layer</label></li>
+                <li><label><input type="radio" name="q5" value="wrong" title="System Security Layer"> System Security Layer</label></li>
+            </ul>
+            <p><strong>Question 6:</strong> What is a common tool used for password cracking?</p>
+            <ul>
+                <li><label><input type="radio" name="q6" value="correct"> John the Ripper</label></li>
+                <li><label><input type="radio" name="q6" value="wrong"> Nmap</label></li>
+                <li><label><input type="radio" name="q6" value="wrong"> Wireshark</label></li>
+            </ul>
+
+            <p><strong>Question 7:</strong> Which of the following is a type of malware that encrypts files and demands payment for decryption?</p>
+            <ul>
+                <li><label><input type="radio" name="q7" value="wrong"> Virus</label></li>
+                <li><label><input type="radio" name="q7" value="correct"> Ransomware</label></li>
+                <li><label><input type="radio" name="q7" value="wrong"> Worm</label></li>
+            </ul>
+            <p><strong>Question 8:</strong> What is an example of two-factor authentication?</p>
+            <ul>
+                <li><input type="radio" name="q8" value="correct" title="A password and a one-time code"> A password and a one-time code</li>
+                <li><input type="radio" name="q8" value="wrong" title="A single strong password"> A single strong password</li>
+                <li><input type="radio" name="q8" value="wrong" title="Biometric authentication only"> Biometric authentication only</li>
+            </ul>
+
+            <p><strong>Question 9:</strong> What is the purpose of encryption?</p>
+            <ul>
+                <li><input type="radio" name="q9" value="correct" title="To protect data from unauthorized access"> To protect data from unauthorized access</li>
+                <li><input type="radio" name="q9" value="wrong" title="To compress data"> To compress data</li>
+                <li><input type="radio" name="q9" value="wrong" title="To make data readable to all users"> To make data readable to all users</li>
+            </ul>
+
+            <p><strong>Question 10:</strong> What does VPN stand for?</p>
+            <ul>
+                <li><input type="radio" name="q10" value="correct" title="Virtual Private Network"> Virtual Private Network</li>
+                <li><input type="radio" name="q10" value="wrong" title="Virtual Public Network"> Virtual Public Network</li>
+                <li><input type="radio" name="q10" value="wrong" title="Very Protected Network"> Very Protected Network</li>
+            </ul>
+
+            <p><strong>Question 11:</strong> Which protocol is used to securely transfer files?</p>
+            <ul>
+                <li><input type="radio" name="q11" value="wrong" title="FTP"> FTP</li>
+                <li><input type="radio" name="q11" value="correct" title="SFTP"> SFTP</li>
+                <li><input type="radio" name="q11" value="wrong" title="HTTP"> HTTP</li>
+            </ul>
+
+            <p><strong>Question 12:</strong> What is a brute-force attack?</p>
+            <ul>
+                <li><input type="radio" name="q12" value="correct" title="Trying all possible combinations to crack a password"> Trying all possible combinations to crack a password</li>
+                <li><input type="radio" name="q12" value="wrong" title="Injecting malicious code into a website"> Injecting malicious code into a website</li>
+                <li><input type="radio" name="q12" value="wrong" title="Overloading a server with traffic"> Overloading a server with traffic</li>
+            </ul>
+
+            <p><strong>Question 13:</strong> What is a zero-day vulnerability?</p>
+            <ul>
+                <li><input type="radio" name="q13" value="correct" title="An unknown vulnerability exploited before it is patched"> An unknown vulnerability exploited before it is patched</li>
+                <li><input type="radio" name="q13" value="wrong" title="A security flaw in a 24-hour time frame"> A security flaw in a 24-hour time frame</li>
+                <li><input type="radio" name="q13" value="wrong" title="A vulnerability that only occurs once"> A vulnerability that only occurs once</li>
+            </ul>
+
+            <p><strong>Question 14:</strong> What is a keylogger?</p>
+            <ul>
+                <li><input type="radio" name="q14" value="correct" title="A tool that records keystrokes"> A tool that records keystrokes</li>
+                <li><input type="radio" name="q14" value="wrong" title="A tool that encrypts data"> A tool that encrypts data</li>
+                <li><input type="radio" name="q14" value="wrong" title="A tool that blocks unauthorized users"> A tool that blocks unauthorized users</li>
+            </ul>
+
+            <p><strong>Question 15:</strong> Which of these is an example of malware?</p>
+            <ul>
+                <li><input type="radio" name="q15" value="correct" title="Ransomware"> Ransomware</li>
+                <li><input type="radio" name="q15" value="wrong" title="VPN"> VPN</li>
+                <li><input type="radio" name="q15" value="wrong" title="Firewall"> Firewall</li>
+            </ul>
+
+            <p><strong>Question 16:</strong> What is the primary function of a penetration test?</p>
+            <ul>
+                <li><input type="radio" name="q16" value="correct" title="To identify vulnerabilities in a system"> To identify vulnerabilities in a system</li>
+                <li><input type="radio" name="q16" value="wrong" title="To fix identified vulnerabilities"> To fix identified vulnerabilities</li>
+                <li><input type="radio" name="q16" value="wrong" title="To monitor network traffic"> To monitor network traffic</li>
+            </ul>
+
+            <p><strong>Question 17:</strong> What is social engineering?</p>
+            <ul>
+                <li><input type="radio" name="q17" value="correct" title="Manipulating people to gain unauthorized access"> Manipulating people to gain unauthorized access</li>
+                <li><input type="radio" name="q17" value="wrong" title="Breaking into systems through brute force"> Breaking into systems through brute force</li>
+                <li><input type="radio" name="q17" value="wrong" title="A method of securing data"> A method of securing data</li>
+            </ul>
+
+            <p><strong>Question 18:</strong> What does the "CIA triad" in cybersecurity stand for?</p>
+            <ul>
+                <li><input type="radio" name="q18" value="correct" title="Confidentiality, Integrity, Availability"> Confidentiality, Integrity, Availability</li>
+                <li><input type="radio" name="q18" value="wrong" title="Cybersecurity, Intelligence, Authentication"> Cybersecurity, Intelligence, Authentication</li>
+                <li><input type="radio" name="q18" value="wrong" title="Communication, Integrity, Access"> Communication, Integrity, Access</li>
+            </ul>
+
+            <p><strong>Question 19:</strong> Which of these is a phishing technique?</p>
+            <ul>
+                <li><input type="radio" name="q19" value="correct" title="Sending fake emails to steal credentials"> Sending fake emails to steal credentials</li>
+                <li><input type="radio" name="q19" value="wrong" title="Scanning a network for open ports"> Scanning a network for open ports</li>
+                <li><input type="radio" name="q19" value="wrong" title="Encrypting data on a system"> Encrypting data on a system</li>
+            </ul>
+
+            <p><strong>Question 20:</strong> What is ransomware?</p>
+            <ul>
+                <li><input type="radio" name="q20" value="correct" title="Malware that locks files until a ransom is paid"> Malware that locks files until a ransom is paid</li>
+                <li><input type="radio" name="q20" value="wrong" title="A method of securing data in transit"> A method of securing data in transit</li>
+                <li><input type="radio" name="q20" value="wrong" title="Software for creating backups"> Software for creating backups</li>
+            </ul>
+
+            <p><strong>Question 21:</strong> What is ethical hacking?</p>
+            <ul>
+                <li><input type="radio" name="q21" value="correct" title="Hacking performed to identify security flaws legally"> Hacking performed to identify security flaws legally</li>
+                <li><input type="radio" name="q21" value="wrong" title="Hacking performed to gain unauthorized access"> Hacking performed to gain unauthorized access</li>
+                <li><input type="radio" name="q21" value="wrong" title="Hacking performed without intent"> Hacking performed without intent</li>
+            </ul>
+
+            <p><strong>Question 22:</strong> What is a honeypot in cybersecurity?</p>
+            <ul>
+                <li><input type="radio" name="q22" value="correct" title="A decoy system to attract attackers"> A decoy system to attract attackers</li>
+                <li><input type="radio" name="q22" value="wrong" title="A tool for scanning networks"> A tool for scanning networks</li>
+                <li><input type="radio" name="q22" value="wrong" title="A secure backup storage"> A secure backup storage</li>
+            </ul>
+            <button id="submit-quiz" class="btn">Submit</button>
+            <p id="quiz-result" class="section-text"></p>
+        </div>
+    </div>
+</section>
+
+<!-- Resources Section -->
+<section id="resources" class="content-section">
+    <div class="card">
+        <h2 class="section-title">Learn More</h2>
+        <p class="section-text">Explore these resources to deepen your knowledge in ethical hacking and cybersecurity:</p>
+        <ul class="resource-list">
+            <li><a href="https://www.kali.org/" target="_blank" class="resource-link">Kali Linux</a> - The preferred OS for penetration testing.</li>
+            <li><a href="https://www.wireshark.org/" target="_blank" class="resource-link">Wireshark</a> - A leading network protocol analyzer.</li>
+            <li><a href="https://portswigger.net/burp" target="_blank" class="resource-link">Burp Suite</a> - A powerful tool for web app security testing.</li>
+            <li><a href="https://tryhackme.com/" target="_blank" class="resource-link">TryHackMe</a> - Interactive cybersecurity training.</li>
+            <li><a href="https://www.hackthebox.com/" target="_blank" class="resource-link">Hack The Box</a> - A platform to practice ethical hacking.</li>
+            <li><a href="https://www.offensive-security.com/" target="_blank" class="resource-link">Offensive Security</a> - Advanced security training and certifications.</li>
+            <li><a href="https://www.cybrary.it/" target="_blank" class="resource-link">Cybrary</a> - Free cybersecurity training and career development.</li>
+            <li><a href="https://www.sans.org/" target="_blank" class="resource-link">SANS Institute</a> - Cybersecurity training, certifications, and research.</li>
+            <li><a href="https://www.eccouncil.org/" target="_blank" class="resource-link">EC-Council</a> - Certifications like CEH and more.</li>
+            <li><a href="https://www.isc2.org/" target="_blank" class="resource-link">(ISC)²</a> - Certifications like CISSP and more.</li>
+        </ul>
+    </div>
+</section>
+
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p><em>Disclaimer: This website provides educational information only. Do not engage in illegal activities.</em></p>
+            <p>© 2024 Hack Everything | Designed by John Doe | <a href="privacy.html" class="footer-link">Privacy Policy</a></p>
+            <button id="back-to-top" class="back-to-top">Back to Top</button>
+        </div>
+    </footer>
+
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.src = 'https://img.icons8.com/ios-filled/50/000000/moon-symbol.png';
+            } else {
+                toggleButton.src = 'https://img.icons8.com/ios-filled/50/000000/sun.png';
+            }
+        });
+
+        // Back to Top button functionality
+        const backToTopButton = document.getElementById('back-to-top');
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        document.getElementById('submit-quiz').addEventListener('click', function() {
+        let score = 0;
+        const answers = document.querySelectorAll('#quiz input[type="radio"]:checked');
+        answers.forEach(answer => {
+            if (answer.value === 'correct') {
+                score++;
+            }
+        });
+        const result = document.getElementById('quiz-result');
+        result.textContent = `You scored ${score}/${answers.length}!`;
+        result.style.color = score === answers.length ? 'green' : 'red';
+    });
+    </script>
+</body>
+</html>
